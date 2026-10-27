@@ -19,7 +19,7 @@ The supplied ZIP already follows this layout.
 ## Run
 Python 3.10+ recommended.
 
-For Streamlit Community Cloud, `requirements.txt` uses the headless OpenCV package so the app does not depend on Linux GUI libraries such as `libGL.so.1`.
+For Streamlit Community Cloud, `requirements.txt` uses headless OpenCV with contrib modules. This provides `cv2.HOGDescriptor` for the SVM without depending on Linux GUI libraries such as `libGL.so.1`.
 
 ```bash
 pip install -r requirements.txt
