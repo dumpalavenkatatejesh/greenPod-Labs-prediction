@@ -1,0 +1,18 @@
+[
+  {
+    "model": "SVM (HSV histogram + HOG)",
+    "accuracy": 0.9090909090909091,
+    "macro_precision": 0.9029505582137161,
+    "macro_recall": 0.9015151515151515,
+    "macro_f1": 0.9003121510905632,
+    "status": "Measured test result"
+  },
+  {
+    "model": "Compact CNN (3 epochs)",
+    "accuracy": 0.7575757575757576,
+    "macro_precision": 0.8366758241758242,
+    "macro_recall": 0.7272727272727273,
+    "macro_f1": 0.6592543289589534,
+    "status": "Quick baseline; not fully tuned"
+  }
+]

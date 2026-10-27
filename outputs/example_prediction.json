@@ -1,0 +1,13 @@
+{
+  "image": "Datasets\\Orange_Dataset\\test\\blackspot\\b (1).jpg",
+  "actual_class": "blackspot",
+  "cnn_predicted_class": "blackspot",
+  "cnn_confidence": 0.9477365016937256,
+  "svm_predicted_class": "blackspot",
+  "cnn_correct": true,
+  "svm_correct": true,
+  "prob_blackspot": 0.9477365016937256,
+  "prob_canker": 0.051326800137758255,
+  "prob_fresh": 0.00028745780582539737,
+  "prob_grenning": 0.0006492660031653941
+}

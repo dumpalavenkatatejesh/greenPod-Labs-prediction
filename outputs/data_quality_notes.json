@@ -1,0 +1,6 @@
+{
+  "valid_images": 1090,
+  "unreadable_images": [],
+  "dimension_outlier_rule": "Flag images whose width or height is below 64 pixels, or whose aspect ratio is outside [0.5, 2.0]. This is a review flag, not an automatic deletion rule.",
+  "flagged_images": []
+}

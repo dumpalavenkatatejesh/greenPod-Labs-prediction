@@ -1,0 +1,39 @@
+{
+  "blackspot": {
+    "precision": 0.8148148148148148,
+    "recall": 1.0,
+    "f1-score": 0.8979591836734694,
+    "support": 22.0
+  },
+  "canker": {
+    "precision": 0.8421052631578947,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7804878048780488,
+    "support": 22.0
+  },
+  "fresh": {
+    "precision": 0.967741935483871,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9375,
+    "support": 33.0
+  },
+  "grenning": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22.0
+  },
+  "accuracy": 0.9090909090909091,
+  "macro avg": {
+    "precision": 0.9061655033641451,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9039867471378795,
+    "support": 99.0
+  },
+  "weighted avg": {
+    "precision": 0.9130073291552258,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9077104419003373,
+    "support": 99.0
+  }
+}

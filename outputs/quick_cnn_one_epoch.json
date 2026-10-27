@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "accuracy": 0.5555555555555556,
+    "macro_precision": 0.2756892230576441,
+    "macro_recall": 0.5,
+    "macro_f1": 0.35520833333333335
+  },
+  "classification_report": {
+    "blackspot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 22.0
+    },
+    "canker": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 22.0
+    },
+    "fresh": {
+      "precision": 0.5789473684210527,
+      "recall": 1.0,
+      "f1-score": 0.7333333333333333,
+      "support": 33.0
+    },
+    "grenning": {
+      "precision": 0.5238095238095238,
+      "recall": 1.0,
+      "f1-score": 0.6875,
+      "support": 22.0
+    },
+    "accuracy": 0.5555555555555556,
+    "macro avg": {
+      "precision": 0.2756892230576441,
+      "recall": 0.5,
+      "f1-score": 0.35520833333333335,
+      "support": 99.0
+    },
+    "weighted avg": {
+      "precision": 0.30938457254246726,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.39722222222222225,
+      "support": 99.0
+    }
+  },
+  "note": "One-epoch quick baseline; not tuned. Compare cautiously against the SVM."
+}
