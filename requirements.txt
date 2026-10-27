@@ -4,5 +4,6 @@ Pillow
 opencv-python
 scikit-learn
 matplotlib
+streamlit
 torch
 torchvision

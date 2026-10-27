@@ -332,7 +332,7 @@ def main():
 
     svm = make_pipeline(
         StandardScaler(),
-        SVC(C=3.0, kernel="rbf", class_weight="balanced"),
+        SVC(C=3.0, kernel="rbf", class_weight="balanced", probability=True),
     )
     svm.fit(x_train_svm, y_train_svm)
     val_svm_pred = svm.predict(x_val_svm)
