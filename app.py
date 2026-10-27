@@ -64,7 +64,7 @@ def predict_cnn(image: Image.Image):
     idx = int(np.argmax(probs))
     return CLASSES[idx], probs, CLASSES
 
-st.title("🍊 Orange Condition Classifier")
+st.title("Fruits Classifier")
 st.caption("Compare a classical SVM (HSV + HOG features) with a small CNN (learned image features).")
 st.warning("Dataset note: this project classifies orange image categories (blackspot, canker, fresh, grenning), not avocado ripening stages. Predictions are estimates, not a food-safety assessment.")
 

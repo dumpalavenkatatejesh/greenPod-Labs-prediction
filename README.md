@@ -19,6 +19,8 @@ The supplied ZIP already follows this layout.
 ## Run
 Python 3.10+ recommended.
 
+For Streamlit Community Cloud, `requirements.txt` uses the headless OpenCV package so the app does not depend on Linux GUI libraries such as `libGL.so.1`.
+
 ```bash
 pip install -r requirements.txt
 python train_and_evaluate.py --data-dir "/path/to/extracted/dataset" --output-dir outputs --epochs 8
